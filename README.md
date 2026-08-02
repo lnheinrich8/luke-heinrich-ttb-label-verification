@@ -9,9 +9,10 @@ The app accepts a label image plus seven application fields, extracts label text
 - Frontend: https://ttb-label-verification-frontend.vercel.app
 - Backend health check: https://ttb-label-verification-backend.onrender.com/health
 
-Date of last verification: July 13, 2026 (frontend loads, backend health returns `ok`, and `backend/scripts/live_smoke.py` returns a 200 verdict end-to-end).
+Date of last verification: July 31, 2026 (frontend loads, backend health returns `ok`, and `backend/scripts/live_smoke.py` returns a 200 verdict end-to-end).
 
-The backend is hosted on Render's free tier, so the first request after inactivity may have a cold-start delay.
+> [!NOTE]
+> The backend is hosted on Render's free tier, so the first request after inactivity may have a cold-start delay.
 
 ## Features
 
